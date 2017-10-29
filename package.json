@@ -1,0 +1,22 @@
+{
+  "name": "codemod-remove-unused-imports",
+  "version": "1.0.0",
+  "description": "Remove unused es6 imports",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx jscodeshift -t ./index.js --parser flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremistadler/codemod-remove-unused-imports.git"
+  },
+  "author": "Jeremi Stadler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snewcomer/codemod-remove-unused-imports/issues"
+  },
+  "homepage": "https://github.com/snewcomer/codemod-remove-unused-imports",
+  "dependencies": {
+    "prettier": "^1.7.0"
+  }
+}
